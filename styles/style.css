@@ -21,13 +21,24 @@ html {
 
 header {
     display: flex;
-	justify-content: center;
+	justify-content: left;
     background-color: #395B50;
     margin: 0;
     position: fixed;
     left: 0;
     right: 0;
     width: 100vw;
+}
+
+.logotext {
+    display: flex;
+    justify-content: left;
+}
+
+.logosmall{
+    width: 6.5em;
+    height: auto;
+    scale: 65%;
 }
 
 body {
@@ -40,8 +51,14 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0%;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
     font-family: Header;
+}
+
+.getstarted {
+    padding-left: 1em;
 }
 
 main {
@@ -124,4 +141,16 @@ footer p:last-child {
     font-family: Header;
     display: flex;
     justify-content: center;
+}
+
+.footertext {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer{
+    width: 75%;
+    height: auto;
 }
