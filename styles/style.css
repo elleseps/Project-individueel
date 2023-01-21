@@ -6,17 +6,17 @@ html {
 
 @font-face {
     font-family: "Header";
-    src: url('/assets/fonts/CardenioModern-Regular.otf');
+    src: url('../assets/fonts/CardenioModern-Regular.otf');
 }
 
 @font-face {
     font-family: "NormalText";
-    src: url('/assets/fonts/HelveticaNeue\ Light.ttf');
+    src: url('../assets/fonts/HelveticaNeue\ Light.ttf');
 }
 
 @font-face {
     font-family: "SubHeader";
-    src: url('/assets/fonts/YanoneKaffeesatz-Bold.otf');
+    src: url('../assets/fonts/YanoneKaffeesatz-Bold.otf');
 }
 
 header {
