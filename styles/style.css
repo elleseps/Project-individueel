@@ -21,13 +21,14 @@ html {
 
 header {
     display: flex;
-	justify-content: left;
+	justify-content: center;
     background-color: #395B50;
     margin: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    width: 100vw;
+    height: 4em;
+}
+
+.mainlogo {
+    scale: 75%;
 }
 
 .logotext {
@@ -38,7 +39,7 @@ header {
 .logosmall{
     width: 6.5em;
     height: auto;
-    scale: 65%;
+    scale: 80%;
 }
 
 body {
@@ -51,63 +52,106 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-family: Header;
-}
-
-.getstarted {
-    padding-left: 1em;
 }
 
 main {
     margin: 0;
-    padding-top: 6em;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 90vw;
+    padding-left: 0em;
+    padding-right: 0em;
+    width: 100vw;
     font-family: NormalText;
     background-color:#ECE2D0;
 }
 
 h2 {
-    font-family: SubHeader;
+    font-family: Header;
     margin-bottom: 0%;
-    margin-top: 1em;
+    margin-top: 0%;
+    background-color: #395B50;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    color: #ECE2D0;
+}
+
+dt {
+    background-color: #395B50;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+dd {
+    margin: 0%;
 }
 
 .gmap {
-    width: 100%;
+    width: 90%;
     height: 100%;
-    border: 0em;
+    margin-left: 1.1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    border-color: #395B50;
+    border-style: solid;
+    border-width: 0.05em;
+}
+
+.gmaptext {
+    margin-top: 1em;
 }
 
 .embedmusic {
-    width: 100%;
+    width: 90%;
     height: auto;
     border: 0em;
     border-radius: 1em;
+    margin-left: 1.1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .timer {
-    width: 100%;
+    width: 90%;
     height: 40em;
     border: 0em;
     border-radius: 1em;
+    margin-left: 1.15em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 p {
     margin: 0;
+    margin-left: 1.1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
-.buttongetstarted {
+figure {
+    margin-right: 1em;
+    margin-left: 2em;
+}
+
+figcaption {
+    margin: 0.5em;
+}
+
+.buttondone {
     border: 0;
     line-height: 2.5;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 30%;
+    margin-right: 30%;
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 1em;
@@ -121,14 +165,59 @@ p {
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px #392B58;
 }
 
-.buttongetstarted:hover {
+.buttondone:hover {
     background-color: #B5838D;
 }
 
-.buttongetstarted:active {
+.buttondone:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.end {
+    background-color: #B5838D;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-left: 1.1em;
+    height: 8em;
+    font-size: 2.5em;
+    font-family: Header;
+    color: #ECE2D0;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px #392B58;
+}
+
+.buttondone2 {
+    border: 0;
+    margin-bottom: 1em;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    font-size: 0.75em;
+    text-align: center;
+    color: #B5838D;
+    border-radius: 10px;
+    background-color: #ECE2D0;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px #392B58;
+    
+}
+
+.buttondone2:hover {
+    background-color: #ECE2D0;
+    color: #392B58;
+}
+
+.buttondone2:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
 
 footer {
     background-color: #395B50;
@@ -141,13 +230,7 @@ footer p:last-child {
     font-family: Header;
     display: flex;
     justify-content: center;
-}
-
-.footertext {
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    font-size: 0.75em;
 }
 
 .footer{
@@ -155,4 +238,12 @@ footer p:last-child {
     height: auto;
     margin: 0%;
     padding-left: 2.5em;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.2em;
+    padding-bottom: 0em;
+}
+
+.footercopy {
+    margin-bottom: 0%;
 }
