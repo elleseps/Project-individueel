@@ -137,7 +137,7 @@ dd {
 .imageindex {
     width: 7.5em;
     height: 7.5em;
-    padding-top: 2em;
+    padding-top: 0.5em;
     padding-right: 1em;
 }
 
@@ -147,7 +147,7 @@ dd {
     padding-right: 1em;
     padding-left: 1em;
     padding-bottom: 1.5em;
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
 .imagezen {
@@ -155,6 +155,20 @@ dd {
     height: 7.5em;
     padding-left: 0.5em;
     padding-top: 1.5em;
+}
+
+.imagemusic {
+    width: 7.5em;
+    height: 7.5em;
+    padding-top: 2em;
+    padding-right: 1em;
+}
+
+.imagetimer {
+    width: 7.5em;
+    height: 7.5em;
+    padding-top: 2em;
+    padding-right: 1em;
 }
 
 .embedmusic {
